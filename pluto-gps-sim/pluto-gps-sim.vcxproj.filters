@@ -39,4 +39,10 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="brdc0830.26n" />
+  </ItemGroup>
 </Project>
