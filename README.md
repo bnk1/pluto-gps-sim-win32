@@ -1,19 +1,3 @@
-pluto-gps-sim.exe -e brdc0830.26n -l 52.37,4.90,0 -t 2026/03/09,02:30:00 -T 2026/03/09,02:30:00 -A -10
-pluto-gps-sim.exe -e brdc0830.26n -l 52.37,4.90,0
----------
-
-Turn off leds:
-ssh root@192.168.2.1, password: Analog https://wiki.analog.com/university/tools/pluto
-# ls /sys/class/leds/
-led0:yellow  mmc0::mmc1::mmc1:1  mmc1::mmc1:0  mmc0::mmc0:1  mmc0::mmc0:0		
-echo none > /sys/class/leds/led0:yellow/trigger
-echo 0 > /sys/class/leds/led0:yellow/brightness
-
-ssh root@192.168.2.1
-
-echo none > /sys/class/leds/led0:yellow/trigger
-echo 0 > /sys/class/leds/led0:yellow/brightness
-
 --------------------------------------------------------
 # PLUTO-GPS-SIM Win32
 

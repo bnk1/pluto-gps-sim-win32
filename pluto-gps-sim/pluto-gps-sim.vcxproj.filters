@@ -44,5 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="brdc0830.26n" />
+    <CopyFileToFolders Include="LedsOff.bat">
+      <Filter>Source Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="LedsOn.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMDS.md" />
   </ItemGroup>
 </Project>
